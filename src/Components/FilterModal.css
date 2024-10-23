@@ -1,0 +1,45 @@
+.filter-modal {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px; /* Adjusted padding */
+    width: 250px; /* Decreased width for a more compact layout */
+    max-width: 100%; /* Responsive max width */
+    display: none; /* Initially hidden */
+}
+
+.filter-modal.show {
+    display: block; /* Show when 'show' prop is true */
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; /* Pointer cursor for dropdown */
+}
+
+.options {
+    margin-left: 20px;
+    padding-top: 10px; /* Space above options */
+}
+
+.select-button {
+    background-color: #6a1b9a;
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem; /* Consistent button text size */
+}
+
+.select-button:hover {
+    background-color: #5e35b1; /* Darker shade on hover */
+}
